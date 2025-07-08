@@ -4,9 +4,10 @@ Chào mừng bạn đến với GitHub Page của tôi! Đây là nơi tôi gi�
 
 ---
 
-## 📱 Current & Upcoming Apps
+## 📱 Current
 
-✅ 202507 Sudoku
+✅ 202507 [Sudoku](./sudokuclassic/index.html)
+
 Ứng dụng giải **Sudoku** cổ điển với thiết kế hiện đại, hỗ trợ 3 ngôn ngữ và thống kê chi tiết:
 
 - [English](./sudokuclassic/index.html)
