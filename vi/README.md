@@ -6,13 +6,19 @@ Chào mừng bạn đến với GitHub Page của tôi! Đây là nơi tôi gi�
 
 ## 📱 Current
 
-### ✅ 202507 [Sudoku](./sudokuclassic/index.html)
+### ✅ 202507 [Sudoku](../sudokuclassic/index.html)
 
 Ứng dụng giải **Sudoku** cổ điển với thiết kế hiện đại, hỗ trợ 3 ngôn ngữ và thống kê chi tiết:
 
-- [English](./sudokuclassic/index.html)
-- [Tiếng Việt](./sudokuclassic/vi/index.html)
-- [日本語](./sudokuclassic/ja/index.html)
+- [English](../sudokuclassic/index.html)
+- [Tiếng Việt](../sudokuclassic/vi/index.html)
+- [日本語](../sudokuclassic/ja/index.html)
+
+📲 **Tải ứng dụng:**
+
+[![Get it on Google Play](https://img.shields.io/badge/Android-Download-green?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.finbertngo.sudokuclassic)
+[![Download on the App Store](https://img.shields.io/badge/iOS-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6748027534)
+
 
 Tính năng nổi bật:
 
@@ -24,13 +30,19 @@ Tính năng nổi bật:
 - Quảng cáo hợp lý, có thưởng để nhận thêm gợi ý
 - Tối ưu cho Android, iOS và cả nền tảng web
 
-### ✅ 202505 [Sudoku Killer](./sudokukiller/index.html)
+### ✅ 202505 [Sudoku Killer](../sudokukiller/index.html)
 
 Ứng dụng giải **Killer Sudoku** với giao diện đẹp, chức năng đầy đủ và hỗ trợ 3 ngôn ngữ:
 
-- [English](./sudokukiller/index.html)
-- [Tiếng Việt](./sudokukiller/vi/index.html)
-- [日本語](./sudokukiller/ja/index.html)
+- [English](../sudokukiller/index.html)
+- [Tiếng Việt](../sudokukiller/vi/index.html)
+- [日本語](../sudokukiller/ja/index.html)
+
+📲 **Tải ứng dụng:**
+
+[![Get it on Google Play](https://img.shields.io/badge/Android-Download-green?logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.finbertngo.sudokukiller)
+[![Download on the App Store](https://img.shields.io/badge/iOS-Download-blue?logo=apple&logoColor=white)](https://apps.apple.com/app/id6746165333)
+
 
 #### Tính năng nổi bật:
 
