@@ -18,12 +18,61 @@
       .lang-section {
         margin-bottom: 60px;
       }
+      .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .back-button {
+        display: inline-flex;
+        align-items: center;
+        background: #007bff;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+      }
+      .back-button:hover {
+        background: #0056b3;
+        color: white;
+        text-decoration: none;
+      }
+      .back-button svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+      #lang-select {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background: white;
+        font-size: 14px;
+        margin: 10px 0;
+      }
     </style>
   </head>
   <body>
     <!-- English -->
     <div class="lang-section" id="en">
-      <h1>🧠 Sudoku - Daily Brain Workout!</h1>
+      <div class="header-container">
+        <div style="display: flex; align-items: center; gap: 20px;">
+          <a href="/" class="back-button">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </a>
+          <h1>🧠 Sudoku - Daily Brain Workout!</h1>
+        </div>
+        <select id="lang-select">
+          <option value="index.html">English</option>
+          <option value="vi/index.html">Tiếng Việt</option>
+          <option value="ja/index.html">日本語</option>
+        </select>
+      </div>
       <p>
         Welcome to <strong>Sudoku</strong> – the modern version of the timeless
         puzzle game, now beautifully designed for all your devices.
@@ -53,6 +102,7 @@
         <li>🌐 Multilingual support: English, Vietnamese, Japanese</li>
       </ul>
 
+
       <h2>❤️ Why you'll love it?</h2>
       <p>
         Play <strong>Sudoku</strong> daily to relax, stay sharp, and enjoy a
@@ -76,5 +126,11 @@
         >
       </p>
     </div>
+
+    <script>
+      document.getElementById('lang-select').addEventListener('change', function() {
+        window.location.href = this.value;
+      });
+    </script>
   </body>
 </html>

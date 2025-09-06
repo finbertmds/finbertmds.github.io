@@ -6,6 +6,32 @@
 
 ## 📱 現在のアプリ
 
+### ✅ 202509 [ExamTopics Practice](../examtopics-practice/ja/index.html)
+
+インタラクティブな練習と進捗追跡を備えた包括的な**AWS認定試験練習プラットフォーム**：
+
+- [English](../examtopics-practice/index.html)
+- [Tiếng Việt](../examtopics-practice/vi/index.html)
+- [日本語](../examtopics-practice/ja/index.html)
+
+🌐 **アクセス：**
+
+[![Live Demo](https://img.shields.io/badge/Web-Live%20Demo-blue?logo=netlify&logoColor=white)](https://examtopics.onrender.com/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?logo=github&logoColor=white)](https://github.com/finbertmds/examtopics)
+[![Status Page](https://img.shields.io/badge/Status-Page-green?logo=uptimerobot&logoColor=white)](https://stats.uptimerobot.com/cxsr5phctW)
+[![ExamTopics Report](https://img.shields.io/badge/Reports-Google%20Sheets-orange?logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1o6pvyRg75xhNBDitBs7bE1p-pKTzVy02XB5gy0FrEW0/edit?usp=sharing)
+
+**主な特徴：**
+
+- **25以上のAWS認定試験** SAA-C03、SAP-C02、DVA-C02など 🏆  
+- **インタラクティブ練習モード** リアルタイムフィードバックと即座の回答チェック 🎮  
+- **包括的な進捗追跡** 詳細な統計とパフォーマンスチャート 📊  
+- **トレーニングモード** 難しい問題をブックマークして集中練習 🔖  
+- **スマート機能** ランダム問題順序、フィルタリング、オフラインサポート 🎲  
+- **モダンなレスポンシブデザイン** デスクトップ、タブレット、モバイルに最適化 📱  
+- **多言語サポート** 英語、ベトナム語、日本語対応 🌐  
+- **1000以上の練習問題** 詳細な説明とディスカッションリンク 💡
+
 ### ✅ 202507 [数独](../sudokuclassic/ja/index.html)
 
 3言語対応＆統計機能を備えたモダンな**数独アプリ**：
@@ -49,7 +75,7 @@
 - ゲーム進捗と統計データを管理 📊  
 - 広告は控えめ、報酬付きでヒント取得  
 - 英語・ベトナム語・日本語に対応  
-- AndroidとiOS両方に最適化  
+- AndroidとiOS両方に最適化
 
 ---
 

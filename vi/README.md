@@ -6,6 +6,32 @@ Chào mừng bạn đến với GitHub Page của tôi! Đây là nơi tôi gi�
 
 ## 📱 Current
 
+### ✅ 202509 [ExamTopics Practice](../examtopics-practice/vi/index.html)
+
+Nền tảng **luyện thi chứng chỉ AWS** toàn diện với luyện tập tương tác và theo dõi tiến độ:
+
+- [English](../examtopics-practice/index.html)
+- [Tiếng Việt](../examtopics-practice/vi/index.html)
+- [日本語](../examtopics-practice/ja/index.html)
+
+🌐 **Truy cập:**
+
+[![Live Demo](https://img.shields.io/badge/Web-Live%20Demo-blue?logo=netlify&logoColor=white)](https://examtopics.onrender.com/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?logo=github&logoColor=white)](https://github.com/finbertmds/examtopics)
+[![Status Page](https://img.shields.io/badge/Status-Page-green?logo=uptimerobot&logoColor=white)](https://stats.uptimerobot.com/cxsr5phctW)
+[![ExamTopics Report](https://img.shields.io/badge/Reports-Google%20Sheets-orange?logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1o6pvyRg75xhNBDitBs7bE1p-pKTzVy02XB5gy0FrEW0/edit?usp=sharing)
+
+#### Tính năng nổi bật:
+
+- **25+ bộ đề chứng chỉ AWS** bao gồm SAA-C03, SAP-C02, DVA-C02 🏆  
+- **Chế độ luyện tập tương tác** với phản hồi thời gian thực và kiểm tra đáp án tức thì 🎮  
+- **Theo dõi tiến độ toàn diện** với thống kê chi tiết và biểu đồ hiệu suất 📊  
+- **Chế độ luyện tập** để đánh dấu câu hỏi khó và luyện tập tập trung 🔖  
+- **Tính năng thông minh** bao gồm xáo trộn câu hỏi, lọc và hỗ trợ offline 🎲  
+- **Thiết kế responsive hiện đại** tối ưu cho desktop, tablet và mobile 📱  
+- **Hỗ trợ đa ngôn ngữ** bằng tiếng Anh, Việt và Nhật 🌐  
+- **1000+ câu hỏi luyện thi** với giải thích chi tiết và link thảo luận 💡
+
 ### ✅ 202507 [Sudoku](../sudokuclassic/index.html)
 
 Ứng dụng giải **Sudoku** cổ điển với thiết kế hiện đại, hỗ trợ 3 ngôn ngữ và thống kê chi tiết:

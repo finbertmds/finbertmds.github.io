@@ -9,12 +9,61 @@
         body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; color: #333; }
         h1, h2 { color: #2c3e50; }
         .lang-section { margin-bottom: 60px; }
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            background: #007bff;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background: #0056b3;
+            color: white;
+            text-decoration: none;
+        }
+        .back-button svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+        #lang-select {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background: white;
+            font-size: 14px;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
 
 <div class="lang-section" id="vi">
-    <h1>🧠 Killer Sudoku - Thử thách tư duy mỗi ngày!</h1>
+    <div class="header-container">
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <a href="/" class="back-button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+            </a>
+            <h1>🧠 Killer Sudoku - Thử thách tư duy mỗi ngày!</h1>
+        </div>
+        <select id="lang-select">
+            <option value="../index.html">English</option>
+            <option value="index.html" selected>Tiếng Việt</option>
+            <option value="../ja/index.html">日本語</option>
+        </select>
+    </div>
     <p>Chào mừng bạn đến với <strong>Killer Sudoku</strong> – một phiên bản nâng cao, đầy thú vị của trò chơi Sudoku cổ điển!
     Kết hợp giữa logic truyền thống và thử thách toán học độc đáo, mỗi ván đấu là một bài kiểm tra trí tuệ đích thực!</p>
 
@@ -29,12 +78,19 @@
         <li>🆓 Chơi miễn phí, quảng cáo hợp lý và thưởng video để tiếp tục!</li>
     </ul>
 
+
     <h2>❤️ Vì sao bạn sẽ thích?</h2>
     <p>Chơi <strong>Killer Sudoku</strong> để luyện trí não mỗi ngày, thư giãn và rèn luyện sự tập trung!</p>
 
     <p>👉 <strong><a href="https://play.google.com/store/apps/details?id=com.finbertngo.sudokukiller" target="_blank">Tải trên Android</a></strong> | 
     <strong><a href="https://apps.apple.com/app/id6746165333" target="_blank">Tải trên iOS</a></strong></p>
 </div>
+
+<script>
+    document.getElementById('lang-select').addEventListener('change', function() {
+        window.location.href = this.value;
+    });
+</script>
 
 </body>
 </html>

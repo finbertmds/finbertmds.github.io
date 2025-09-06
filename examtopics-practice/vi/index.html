@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExamTopics Practice - Nền tảng luyện thi chứng chỉ AWS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        line-height: 1.6;
+        color: #333;
+      }
+      h1,
+      h2 {
+        color: #2c3e50;
+      }
+      .lang-section {
+        margin-bottom: 60px;
+      }
+      .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin: 20px 0;
+      }
+      .feature-card {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        border-left: 4px solid #007bff;
+      }
+      .exam-list {
+        background: #e8f4fd;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 15px 0;
+      }
+      .tech-stack {
+        background: #f0f8ff;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 15px 0;
+      }
+      .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .back-button {
+        display: inline-flex;
+        align-items: center;
+        background: #007bff;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+      }
+      .back-button:hover {
+        background: #0056b3;
+        color: white;
+        text-decoration: none;
+      }
+      .back-button svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+      #lang-select {
+        padding: 8px 12px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background: white;
+        font-size: 14px;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Vietnamese -->
+    <div class="lang-section" id="vi">
+      <div class="header-container">
+        <div style="display: flex; align-items: center; gap: 20px;">
+          <a href="/" class="back-button">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </a>
+          <h1>🎯 ExamTopics Practice - Nền tảng luyện thi chứng chỉ AWS</h1>
+        </div>
+        <select id="lang-select">
+          <option value="../index.html">English</option>
+          <option value="index.html" selected>Tiếng Việt</option>
+          <option value="../ja/index.html">日本語</option>
+        </select>
+      </div>
+      <p>
+        Chào mừng đến với <strong>ExamTopics Practice</strong> – nền tảng toàn diện để luyện thi các chứng chỉ AWS và IT. 
+        Được xây dựng bằng các công nghệ web hiện đại, mang đến trải nghiệm học tập tương tác với theo dõi tiến độ chi tiết.
+      </p>
+
+      <h2>🚀 Tính năng chính:</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>📚 Hỗ trợ đa đề thi</h3>
+          <p>Luyện thi với 25+ bộ đề chứng chỉ AWS bao gồm SAA-C03, SAP-C02, DVA-C02 và nhiều hơn nữa</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎮 Luyện thi tương tác</h3>
+          <p>Phản hồi thời gian thực, kiểm tra đáp án tức thì và giải thích chi tiết cho từng câu hỏi</p>
+        </div>
+        <div class="feature-card">
+          <h3>📊 Theo dõi tiến độ</h3>
+          <p>Thống kê toàn diện, biểu đồ hiệu suất và theo dõi tiến độ chi tiết</p>
+        </div>
+        <div class="feature-card">
+          <h3>🔖 Chế độ luyện tập</h3>
+          <p>Đánh dấu câu hỏi khó và luyện tập riêng trong các phiên luyện tập chuyên dụng</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎲 Tính năng thông minh</h3>
+          <p>Xáo trộn câu hỏi, lọc thông minh và hỗ trợ offline với localStorage</p>
+        </div>
+        <div class="feature-card">
+          <h3>📱 Thiết kế responsive</h3>
+          <p>Tối ưu cho desktop, tablet và thiết bị di động với UI/UX hiện đại</p>
+        </div>
+      </div>
+
+      <h2>🏆 Các chứng chỉ AWS được hỗ trợ:</h2>
+      <div class="exam-list">
+        <ul>
+          <li><strong>AWS Solutions Architect Associate (SAA-C03)</strong></li>
+          <li><strong>AWS Solutions Architect Professional (SAP-C02)</strong></li>
+          <li><strong>AWS Developer Associate (DVA-C02)</strong></li>
+          <li><strong>AWS SysOps Administrator Associate (SOA-C02)</strong></li>
+          <li><strong>AWS DevOps Engineer Professional (DOP-C02)</strong></li>
+          <li><strong>AWS Machine Learning Engineer Associate (MLA-C01)</strong></li>
+          <li><strong>AWS Security Specialty (SCS-C02)</strong></li>
+          <li><strong>AWS Data Engineer Associate (DEA-C01)</strong></li>
+          <li>Và nhiều chứng chỉ khác...</li>
+        </ul>
+      </div>
+
+      <h2>🛠️ Công nghệ sử dụng:</h2>
+      <div class="tech-stack">
+        <ul>
+          <li><strong>Frontend:</strong> React 18, TypeScript, Tailwind CSS</li>
+          <li><strong>Backend:</strong> Node.js, Express, MongoDB</li>
+          <li><strong>Xác thực:</strong> Google OAuth, JWT</li>
+          <li><strong>Quản lý dữ liệu:</strong> Tích hợp Google Sheets API</li>
+          <li><strong>Triển khai:</strong> Docker, Render.com</li>
+        </ul>
+      </div>
+
+      <h2>💡 Tại sao chọn ExamTopics Practice?</h2>
+      <p>
+        <strong>ExamTopics Practice</strong> cung cấp một hệ sinh thái học tập hoàn chỉnh để chuẩn bị cho các kỳ thi chứng chỉ AWS. 
+        Với hơn 1000+ câu hỏi luyện thi, giải thích chi tiết và theo dõi tiến độ toàn diện, 
+        đây là công cụ hoàn hảo để tăng cường sự tự tin và vượt qua các kỳ thi AWS của bạn.
+      </p>
+
+
+      <p>
+        👉
+        <strong
+          ><a
+            href="https://github.com/finbertmds/examtopics"
+            target="_blank"
+            >Xem trên GitHub</a
+          ></strong
+        >
+        |
+        <strong
+          ><a href="https://examtopics.onrender.com/" target="_blank"
+            >Thử Demo trực tuyến</a
+          ></strong
+        >
+      </p>
+    </div>
+
+    <script>
+      document.getElementById('lang-select').addEventListener('change', function() {
+        window.location.href = this.value;
+      });
+    </script>
+  </body>
+</html>

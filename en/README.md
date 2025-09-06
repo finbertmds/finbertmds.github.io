@@ -6,6 +6,32 @@ Welcome to my GitHub Page! This is where I showcase apps I’m currently develop
 
 ## 📱 Current
 
+### ✅ 202509 [ExamTopics Practice](../examtopics-practice/index.html)
+
+A comprehensive **AWS Certification Training Platform** with interactive practice and progress tracking:
+
+- [English](../examtopics-practice/index.html)
+- [Tiếng Việt](../examtopics-practice/vi/index.html)
+- [日本語](../examtopics-practice/ja/index.html)
+
+🌐 **Access:**
+
+[![Live Demo](https://img.shields.io/badge/Web-Live%20Demo-blue?logo=netlify&logoColor=white)](https://examtopics.onrender.com/)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-black?logo=github&logoColor=white)](https://github.com/finbertmds/examtopics)
+[![Status Page](https://img.shields.io/badge/Status-Page-green?logo=uptimerobot&logoColor=white)](https://stats.uptimerobot.com/cxsr5phctW)
+[![ExamTopics Report](https://img.shields.io/badge/Reports-Google%20Sheets-orange?logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1o6pvyRg75xhNBDitBs7bE1p-pKTzVy02XB5gy0FrEW0/edit?usp=sharing)
+
+**Key Features:**
+
+- **25+ AWS Certification Exams** including SAA-C03, SAP-C02, DVA-C02 🏆  
+- **Interactive Practice Mode** with real-time feedback and instant answer checking 🎮  
+- **Comprehensive Progress Tracking** with detailed statistics and performance charts 📊  
+- **Training Mode** for bookmarking difficult questions and focused practice 🔖  
+- **Smart Features** including random question order, filtering, and offline support 🎲  
+- **Modern Responsive Design** optimized for desktop, tablet, and mobile 📱  
+- **Multi-language Support** in English, Vietnamese, and Japanese 🌐  
+- **1000+ Practice Questions** with detailed explanations and discussion links 💡
+
 ### ✅ 202507 [Sudoku](../sudokuclassic/index.html)
 
 A modern **Sudoku** app with multilingual support and detailed statistics:
@@ -49,7 +75,7 @@ A complete and beautiful **Killer Sudoku** app with full language support:
 - Track progress and personal stats 📊  
 - Rewarded hints via non-intrusive ads  
 - Supports English, Vietnamese, and Japanese  
-- Optimized for both Android and iOS  
+- Optimized for both Android and iOS
 
 ---
 
